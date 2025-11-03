@@ -1,11 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Інтерактивний профайл</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <script type="module" src="./js/lesson1.js"></script>
+    <button class="theme-toggle">🌙</button>
+
+    <div class="profile-card">
+        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face" 
+             class="avatar" alt="Аватар">
+        <h1 class="name">Олександр Петренко</h1>
+        <p class="bio">Фронтенд розробник з любов'ю до чистих кодів та красивих інтерфейсів</p>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <div class="stat-value">25</div>
+                <div class="stat-label">Вік</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">1.2K</div>
+                <div class="stat-label">Підписники</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">47</div>
+                <div class="stat-label">Проекти</div>
+            </div>
+        </div>
+
+        <button class="edit-btn">Редагувати профайл</button>
+    </div>
+
+    <script src="./js/lesson1.js"></script>
 </body>
 </html>
